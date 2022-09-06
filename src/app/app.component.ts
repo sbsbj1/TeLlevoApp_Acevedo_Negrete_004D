@@ -17,29 +17,9 @@ export class AppComponent {
 
   componentes: Componente[] = [ 
     {
-      icon: 'wifi-outline',
+      icon: 'storefront-outline',
       name: 'Inicio',
       redirecTo: '/inicio',
-    },
-    {
-      icon: 'bug-outline',
-      name: 'Alert',
-      redirecTo: '/alert',
-    },
-    {
-      icon: 'bicycle-outline',
-      name: 'Action-sheet',
-      redirecTo:'/action-sheet',
-    },
-    {
-      icon: 'albums-outline',
-      name: 'Card',
-      redirecTo:'/card',
-    },
-    {
-      icon: 'walk-outline',
-      name: 'Inputs',
-      redirecTo:'/inputs',
     },
     {
       icon: 'book-outline',
@@ -47,7 +27,7 @@ export class AppComponent {
       redirecTo:'/contexto',
     },
     {
-      icon: 'man-outline',
+      icon: 'person-add-outline',
       name: 'Registro',
       redirecTo:'/registro',
     },

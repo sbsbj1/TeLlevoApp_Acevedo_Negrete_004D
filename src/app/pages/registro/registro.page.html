@@ -20,14 +20,14 @@
 
     <ion-item>
       <ion-label>Nombre: </ion-label>
-      <ion-input type="text" placeholder="Nombre"
+      <ion-input type="text" placeholder="Ingrese Nombre..."
                  name="nombre" [(ngModel)]= "usuario.nombre" required>
       </ion-input>
     </ion-item>
 
     <ion-item>
       <ion-label>Email: </ion-label>
-      <ion-input type="email" placeholder="Email"
+      <ion-input type="email" placeholder="Ingrese Email..."
                  name="email" value="" [(ngModel)]= "usuario.email"
                  pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
                  required>
@@ -36,7 +36,7 @@
 
     <ion-item>
       <ion-label>Password: </ion-label>
-      <ion-input type="password"	 placeholder="Contraseña"
+      <ion-input type="password"	 placeholder="Ingrese contraseña..."
                  name="password" value="" [(ngModel)]= "usuario.password"
                  required>
       </ion-input>
@@ -48,6 +48,8 @@
     </ion-button>
 
 
+
   </form>
+  <ion-button (click)="input()" class="button button-small">Recuperar Contraseña</ion-button>
 
 </ion-content>
